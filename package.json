@@ -1,0 +1,26 @@
+{
+  "name": "book",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arvindh177/Book-Directory.git"
+  },
+  "author": "Arvindh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arvindh177/Book-Directory/issues"
+  },
+  "homepage": "https://github.com/Arvindh177/Book-Directory#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.0",
+    "nodemon": "^2.0.22"
+  }
+}
