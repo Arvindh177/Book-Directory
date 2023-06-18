@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const db = require('../controllers/db');
 
 const Schema = mongoose.Schema;
 
@@ -16,4 +17,5 @@ const bookschema = new Schema({
     }
 });
 
-export default mongoose.model("Book",bookschema);
+const bookmodel = db.model('books',bookschema);
+module.exports = bookmodel;
